@@ -1,3 +1,14 @@
 weather_data:
   type: pandas.CSVDataSet
-  filepath: data/01_raw/weather-aus.csv
+  filepath: data/01_raw/weather_aus.csv
+  load_args:
+    encoding: utf-8
+
+
+reporte_nulos:
+  type: pandas.ExcelDataset
+  filepath: data/08_reporting/reporte_nulos.xlsx
+
+reporte_descriptivos:
+  type: pandas.ExcelDataset
+  filepath: data/08_reporting/descriptivos.xlsx

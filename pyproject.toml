@@ -1,0 +1,4 @@
+[tool.kedro]
+project_name = "Caso Semestral"
+package_name = "weatherAUS.csv"
+kedro_init_version = "0.18.14"
